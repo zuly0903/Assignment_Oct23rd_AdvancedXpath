@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="gituname" value="zuly0903@gmail.com"/>
+    <parameter name="gitpsw" value="Zulidili0129/"/>
+    <parameter name="redpsw" value="Selenium@123"/>
+    <parameter name="reduname" value="seleniumpanda@rediffmail.com"/>
+    <classes>
+      <class name="testing_code_5thNov_Sat.Wait_Assert_Practice">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="luanchBrowser"/>
+          <include name="homepage"/>
+          <include name="signinbtn"/>
+          <include name="login"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- testing_code_5thNov_Sat.Wait_Assert_Practice -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
