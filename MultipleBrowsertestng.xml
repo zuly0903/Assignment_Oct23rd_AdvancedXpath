@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test  name="Test">
+  <parameter name="url1" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+  <parameter name="url2" value="https://www.facebook.com/"/>
+  <parameter name="uname1" value="seleniumpanada@rediffmail.com"/>
+  <parameter name="uname2" value="zuly123"/>
+  <parameter name="password1" value="Selenium@123"/>
+  <parameter name="password2" value="zuly0903"/>
+  
+  
+  
+  <classes>
+  		<class name="nov12th_saturday.Multiple_Browser_Parameters1"/>
+  		<class name="nov12th_saturday.Multiple_Browser_Parameters2"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

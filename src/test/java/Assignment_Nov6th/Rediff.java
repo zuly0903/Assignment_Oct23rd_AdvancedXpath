@@ -53,11 +53,12 @@ public class Rediff {
 	}
 	
 	@Test
-	public void Logout() {
+	public void Logout() throws Exception {
 		WebElement logout = driver.findElement(By.cssSelector("a.rd_logout"));
+		Thread.sleep(3000);
+		logout.click();
 		softassert.assertTrue(logout.isDisplayed());
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.elementToBeClickable(logout)).click();
+		
 		softassert.assertAll();
 	}
 	
